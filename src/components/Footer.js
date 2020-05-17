@@ -13,7 +13,7 @@ function Footer() {
                         (+254)701 698736
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was made by Jameson Githinji ❤️.
+                        |This site was made by Jameson❤️.
                     </Col>
                 </Row>
             </Container>

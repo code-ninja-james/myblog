@@ -2,9 +2,9 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import devgrub from '../assets/images/devgrub.png';
-import youtube from '../assets/images/youtube.png';
-import evverest from '../assets/images/evverest.png';
+import blog from '../assets/images/blog.png';
+import linkedin from '../assets/images/linkedin.png';
+import github from '../assets/images/github.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -18,7 +18,7 @@ class Carousel extends React.Component {
                     id: 0,
                     title: 'Medium',
                     subTitle: 'My blog.',
-                    imgSrc: devgrub,
+                    imgSrc: blog,
                     link: 'https://medium.com/@githinjijameson/unit-testing-in-javascript-f796d3fede10',
                     selected: false
                 },
@@ -26,7 +26,7 @@ class Carousel extends React.Component {
                     id: 1,
                     title: 'Jameson Githinji',
                     subTitle: 'Linkedin',
-                    imgSrc: youtube,
+                    imgSrc: linkedin,
                     link: 'https://www.linkedin.com/in/jameson-githinji-9a2394163',
                     selected: false
                 },
@@ -34,7 +34,7 @@ class Carousel extends React.Component {
                     id: 2,
                     title: 'Github',
                     subTitle: 'A graphql-typescript starter kit',
-                    imgSrc: evverest,
+                    imgSrc: github,
                     link: 'https://github.com/code-ninja-james/jim_graphql-ts-server-boilerplate',
                     selected: false
                 },
